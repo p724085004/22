@@ -10,10 +10,6 @@ int main(void)
 	{
 		gets(a[i]);
 	}
-	for (int i = 0; i < 3; ++i)
-	{
-		puts(a[i]);
-	}
 	Sort(*a,*(a + 1),*(a + 2));
 	printf("ÅÅÐòºóµÄ×Ö·û´®£º\n");
 	for (int i = 0; i < 3; ++i)
